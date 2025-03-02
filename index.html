@@ -130,3 +130,47 @@
     <source src="https://github.com/ton_nom_utilisateur/soireed29/raw/main/jul-la-faille.mp3" type="audio/mp3">
     Ton navigateur ne prend pas en charge l'élément audio.
 </audio>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soirée du 29</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            background-color: #ff6600;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Soirée du 29</h1>
+    <p>À suivre... 🎉</p>
+
+    <button onclick="startAudio()">Lancer la musique</button>
+
+    <audio id="audio">
+        <source src="https://github.com/ton_nom_utilisateur/soireed29/raw/main/jul-la-faille.mp3" type="audio/mp3">
+        Ton navigateur ne prend pas en charge l'élément audio.
+    </audio>
+
+    <script>
+        function startAudio() {
+            var audio = document.getElementById('audio');
+            audio.play(); // Démarre l'audio lorsque le bouton est cliqué
+        }
+    </script>
+</body>
+</html>
