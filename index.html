@@ -27,13 +27,6 @@
             overflow: hidden;
         }
 
-        /* Cacher la vidéo */
-        iframe {
-            position: absolute;
-            top: -9999px;
-            left: -9999px;
-        }
-
         .title {
             font-size: 4rem;
             font-family: 'Playfair Display', serif;
@@ -73,8 +66,11 @@
 </head>
 <body>
 
-    <!-- Vidéo YouTube en arrière-plan sans affichage -->
-    <iframe src="https://www.youtube.com/embed/X8yNru9psQE?autoplay=1&mute=0&controls=0&showinfo=0&autohide=1&modestbranding=1&loop=1&playlist=X8yNru9psQE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!-- Audio en arrière-plan -->
+    <audio autoplay loop>
+        <source src="https://github.com/ton_nom_utilisateur/soireed29/raw/main/jul-la-faille.mp3" type="audio/mp3">
+        Ton navigateur ne prend pas en charge l'élément audio.
+    </audio>
 
     <div class="title">Soirée du 29</div>
     
